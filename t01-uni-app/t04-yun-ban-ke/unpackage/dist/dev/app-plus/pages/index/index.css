@@ -1,0 +1,44 @@
+
+.uni-status-bar[data-v-2ac0d4a5]{
+		width: 750px;
+		background-color: var(--light);
+}
+
+
+.label {
+		position: relative;
+}
+.label::after {
+		content: '';
+
+		position: absolute;
+		top: 1.71875rem;
+		left: 1.25rem;
+		width: 1.5625rem;
+		height: 0.3125rem;
+		/* width: 100%; */
+		background-color: var(--info);
+}
+.search-icon {
+		width: 2.1875rem;
+		height: 2.1875rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+}
+.search-box {
+		height: 2.1875rem;
+		padding-left: 2.1875rem;
+		background-color: var(--bgColor);
+		border-radius: var(--radius);
+}
+.thumbnail {
+		width: 3.4375rem;
+		height: 3.4375rem;
+		border-radius: var(--radius);
+}
+.thumbnail2 {
+		width: 6.25rem;
+		height: 6.25rem;
+		border-radius: var(--radius);
+}

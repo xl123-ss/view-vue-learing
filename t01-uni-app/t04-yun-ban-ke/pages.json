@@ -1,0 +1,137 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/find/find",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                 "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+		    "path" : "pages/my/child/wen-jian-huan-cun",
+		    "style" :                                                                                    
+		    {
+		        // "navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/my/child/yong-hu-xie-yi",
+		    "style" :                                                                                    
+		    {
+		        // "navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/my/child/she-zhi",
+		    "style" :                                                                                    
+		    {
+		        // "navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/my/child/she-zhi-child/huan-cun-guan-li",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/child/she-zhi-child/guan-yu-wo-men",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/child/ke-cheng",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/child/zi-yuan",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                 "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "云班课",
+		"navigationBarBackgroundColor": "#1296db",
+		"backgroundColor": "#1296db"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		    "selectedColor": "#007AFF",
+		    "borderStyle": "black",
+		    "backgroundColor": "#F8F8F8",
+		    "list": [
+		        {
+		            "pagePath": "pages/index/index",
+		            "iconPath": "static/tabbar/index.png",
+		            "selectedIconPath": "static/tabbar/index-select.png",
+		            "text": "班课"
+		        },
+		        {
+		            "pagePath": "pages/find/find",
+		            "iconPath": "static/tabbar/find.png",
+		            "selectedIconPath": "static/tabbar/find-select.png",
+		            "text": "发现"
+		        }, 
+		        {
+		            "pagePath": "pages/my/my",
+		            "iconPath": "static/tabbar/my.png",
+		            "selectedIconPath": "static/tabbar/my-select.png",
+		            "text": "我的"
+		        }
+	
+				
+		    ]
+	},
+	"uniIdRouter": {},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

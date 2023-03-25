@@ -1,0 +1,6 @@
+
+.thumbnail {
+		width: 110rpx;
+		height: 110rpx;
+		border-radius: var(--radius);
+}

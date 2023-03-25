@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'iconfont';
+	/* Project id 3949795*/
+	src: url('/static/font/iconfont.ttf');
+
+
+}
+
+
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 22px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont-lg {
+	font-family: "iconfont" !important;
+	font-size: 28px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-liwuhuodong:before {
+	content: "\e600";
+}
+
+.icon-people:before {
+	content: "\e651";
+}
+
+.icon-yuyin:before {
+	content: "\e8f7";
+}
+
+.icon-jiaoxuekejian:before {
+	content: "\e695";
+}
+
+.icon-select:before {
+	content: "\e661";
+}
+
+.icon-right:before {
+	content: "\e642";
+}
+
+.icon-sousuo:before {
+	content: "\e8b9";
+}
+
+.icon-more:before {
+	content: "\e6ad";
+}
+
+.icon-jia:before {
+	content: "\e8a6";
+}
+
+.icon-saoma:before {
+	content: "\e712";
+}
+
+.icon-my:before {
+	content: "\e78b";
+}
+
+.icon-yun:before {
+	content: "\eb2c";
+}
+
+.icon-FIND:before {
+	content: "\ea48";
+}

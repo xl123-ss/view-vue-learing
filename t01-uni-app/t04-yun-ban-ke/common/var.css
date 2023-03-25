@@ -1,0 +1,67 @@
+:root,
+page {
+	/* 状态栏高度 */
+	--statusBarHeight: 20px;
+	/* 导航栏高度 */
+	--navBarHeight: 44px;
+	/* 行高 */
+	--lineHeight: 1.8;
+	/* 内外边距 */
+	--gutterS: 10rpx;
+	--gutterM: 20rpx;
+	--gutterL: 30rpx;
+	/* z-index */
+	--zIndex: 1030;
+
+	/* 字体大小 */
+	--fontXS: 15rpx;
+	--fontS: 20rpx;
+	--fontSM: 25rpx;
+	--font: 30rpx;
+	--fontMD: 35rpx;
+	--fontLG: 40rpx;
+
+	/* 圆角大小 */
+	--radius: 8px;
+
+	/* 背景色 */
+	--bgColor: #F4F4F4;
+	--bg: #009CFF;
+	--bgHover: #51BBFF;
+	--bgDisabled: #51BBFF;
+
+	/* 文字基本颜色 */
+	--viewColor: #0E151D;
+	--textColor: #009CFF;
+	--textHoverColor: #51BBFF;
+
+	/* 边框颜色 */
+	--boderColor: #dee2e6;
+	/* 图标背景色 */
+	--iconBgColor: #EEEEEE;
+
+	/* 主题色 */
+	--white: #FFFFFF;
+	--primary: #007bff;
+	--primaryHover: #0056b3;
+	--secondary: #6c757d;
+	--secondaryHover: #494f54;
+	--lightSecondary: #E9E8E5;
+	--success: #28a745;
+	--successHover: #19692c;
+	--info: #17a2b8;
+	--infoHover: #0f6674;
+	--warning: #ffc107;
+	--warningHover: #ba8b00;
+	--danger: #dc3545;
+	--dangerHover: #a71d2a;
+	--light: #f8f9fa;
+	--lightHover: #cbd3da;
+	--dark: #343a40;
+	--darkHover: #121416;
+	--body: #212529;
+	--muted: #6c757d;
+	--lightMuted: #A9A5A0;
+	--lightBlack: rgba(0, 0, 0, 0.5);
+	--lightWhite: rgba(255, 255, 255, 0.5);
+}

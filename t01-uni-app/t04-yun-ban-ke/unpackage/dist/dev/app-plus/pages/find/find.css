@@ -1,0 +1,12 @@
+
+.uni-status-bar[data-v-2ac0d4a5]{
+		width: 750px;
+		background-color: var(--light);
+}
+
+
+.thumbnail {
+		width: 1.25rem;
+		height: 1.25rem;
+		border-radius: var(--radius);
+}

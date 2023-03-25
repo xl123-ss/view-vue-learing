@@ -1,0 +1,33 @@
+
+.label {
+		position: relative;
+}
+.label::after {
+		content: 'aaaa';
+
+		position: absolute;
+		top: 55rpx;
+		left: 40rpx;
+		width: 50rpx;
+		height: 20rpx;
+		/* width: 100%; */
+		background-color: var(--info);
+}
+.search-icon {
+		width: 70rpx;
+		height: 70rpx;
+		position: absolute;
+		top: 0;
+		left: 0;
+}
+.search-box {
+		height: 70rpx;
+		padding-left: 70rpx;
+		background-color: var(--bgColor);
+		border-radius: var(--radius);
+}
+.thumbnail {
+		width: 110rpx;
+		height: 110rpx;
+		border-radius: var(--radius);
+}
